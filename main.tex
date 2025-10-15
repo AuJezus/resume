@@ -1,0 +1,179 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{titlesec}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+\pdfgentounicode=1
+
+% Styling
+\pagestyle{empty}
+
+\addtolength{\oddsidemargin}{-0.38cm}
+\addtolength{\textwidth}{0.76cm}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+  {\Large \scshape Augustas Vaivada}\\[2mm]
+  {\footnotesize
+    \raisebox{-0.1\height}{\faPhone}\ \underline{\href{tel:+37067417628}{+370 674 17628}}\ ~
+    \raisebox{-0.1\height}{\faEnvelope}\ \underline{\href{mailto:augustasv16@gmail.com}{augustasv16@gmail.com}}\ ~
+    \raisebox{-0.1\height}{\faLinkedin}\ \underline{\href{https://www.linkedin.com/in/augustas-vaivada}{linkedin.com/in/augustas-vaivada}}\ ~
+    \raisebox{-0.1\height}{\faGithub}\ \underline{\href{https://github.com/aujezus}{github.com/aujezus}}\ ~
+    \raisebox{-0.1\height}{\faGlobe}\ \underline{\href{https://aujezus.com}{aujezus.com}}
+  }
+  \vspace{-8pt}
+\end{center}
+
+%----------- EDUCATION -----------
+\section*{Education}
+\vspace{1mm}
+
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Vilnius University}{Expected Graduation: Jan 2028}
+    {\href{https://www.vu.lt/studijos/stojantiesiems/bakalauro-studiju-sarasas/informacines-technologijos}{Bachelor in Information Technology}}{}
+            \\[5mm]
+    
+
+\resumeItemListStart
+  \resumeItem{Coursework: Discrete Mathematics, Data Structures, OOP, UNIX, DBMS, Computer Networks, Virtualization, Software Engineering, HCI, Internet Technologies, Security, Systems Architecture.}
+  \resumeItem{Program: Project-based with industry collaboration, modern, cloud-ready infrastructure.}
+  \resumeItem{Recognition: \textbf{“Investors’ Spotlight” award} (2017) for best alignment with investor needs among Lithuanian university programs.}
+\resumeItemListEnd
+
+ \vspace{-15pt}
+
+ \resumeProjectHeading
+            {\textbf{NKKM Computer School}} {Graduated: 2022}
+            \\[5mm]
+          \resumeItemListStart
+            \resumeItem{Application programming with \textbf{Visual Basic, Python, and C\#}.}
+            \resumeItem{Unity game development, cloud technologies, remote management and security.}
+            \resumeItem{Website development with \textbf{JS, HTML, CSS}.}
+          \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-12pt}
+
+%-----------Experience---------------
+\section{Work Experience}
+    \resumeSubHeadingListStart
+                \resumeSubheading{UAB Ababa}{Oct 2024 -- Oct 2025}{Junior Full Stack Engineer}{Remote} 
+                \resumeItemListStart
+                      \resumeItem{Delivered \textbf{500+ full‑stack features} (public pages, external API integrations, CRM workflows) using \textbf{NestJS}, \textbf{React}, and \textbf{PostgreSQL}, reducing backlog tickets by \textbf{35\%}.}
+                    \resumeItem{Optimized and upgraded a \textbf{canvas‑style editor in React}, cutting render latency by \textbf{40\%} and achieving \textbf{pixel‑perfect} PDF exports.}
+                    \resumeItem{Integrated \textbf{12+} external APIs - including Stripe (subscriptions), Neopay, Brevo, Mailtrap, Elpako, and Discord - leveraging \textbf{RESTful} architecture and event‑driven \textbf{webhooks}.}
+                    \resumeItemListEnd
+            \resumeSubheading{UAB Ababa}{Aug 2024 -- Oct 2024}{Full Stack Engineer Intern}{Remote} 
+                \resumeItemListStart
+                     \resumeItem{Resolved \textbf{40+} UI/backend bugs across \textbf{React} and \textbf{NestJS} services, improving stability.}
+                    \resumeItem{Implemented \textbf{30}+ entry‑level features (CRUD endpoints, simple CRM logic, form validations) using \textbf{NestJS, React, and PostgreSQL}, adhering to code review standards and style guides.}
+                    \resumeItem{Refactored legacy components and \textbf{NestJS} modules by removing dead code and extracting reusable \textbf{React hooks}, cutting bundle size by \textbf{10\%} and simplifying future feature work.}
+                    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{Projects} 
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+            {\textbf{Žaidimų Pieva} \,|\, \emph{\href{https://zaidimu-pieva.vercel.app/}{Website}} \,|\, \emph{\href{https://github.com/AuJezus/zaidimu-pieva}{Source Code}}}{NextJS \,|\, Tailwind \,|\, Contentful}
+            \\[5mm]
+          \resumeItemListStart
+            \resumeItem{Built and deployed a marketing site for a lawn‑game rental business using Next.js, TypeScript, Tailwind, and shadcn/ui, featuring a responsive “wave” design.}
+            \resumeItem{Implemented headless CMS with \textbf{Contentful} and a serverless contact flow via \textbf{Web3Forms}, enabling non‑technical content updates and generating qualified leads to email.}
+          \resumeItemListEnd
+ \vspace{-20pt}
+ \resumeProjectHeading
+            {\textbf{Portfolio/Blog} \,|\, \emph{\href{https://www.aujezus.com/}{Website}} \,|\, \emph{\href{https://github.com/AuJezus/personal-website-v3}{Source Code}}}{NextJS \,|\, Tailwind \,|\, PostgreSQL}
+            \\[5mm]
+          \resumeItemListStart
+            \resumeItem{Built my portfolio with Next.js, TypeScript, Tailwind, shadcn/ui, \textbf{Velite} and \textbf{React Email} - featuring a custom animated hero, blog with \textbf{MDX + TOC}, and \textbf{parallel/intercepting route} modals for project previews.}
+            \resumeItem{Implemented forms using \textbf{React Hook Form + Zod} with \textbf{server actions}, and set up email workflows via \textbf{React Email + Nodemailer}. Added live “stats” in navigation via \textbf{Wakatime and Last.fm APIs}.}
+          \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-12pt}
+
+  %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{   
+     \textbf{Languages}{: JavaScript/TypeScript, CSS, HTML5, C\#, SQL, Python} \\[1mm]
+     \textbf{Developer Tools}{: Vercel, Postman, Git, Docker, Jira, AWS, Supabase.} \\[1mm]
+     \textbf{Libraries/Frameworks}{: ReactJS, Redux, Tailwind, NodeJS, NextJS, ExpressJS, NestJS, Unity.} \\ [1mm]
+    }}
+ \end{itemize}
+
+\vspace{-18pt}
+
+\end{document}
